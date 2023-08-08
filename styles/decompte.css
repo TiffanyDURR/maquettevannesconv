@@ -1,0 +1,47 @@
+.decompte {
+  min-width: 320px;
+  width: 100%;
+  text-align: center;
+  color: #d3d3d3;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: #bb9a72;
+}
+
+.decompte h2 {
+  margin-bottom: 32px;
+}
+
+.month {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.month div {
+  padding-left: 32px;
+  margin-right: 32px;
+}
+
+.decompte h4 {
+  margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 767px) {
+  .decompte h2 {
+    font-size: 38px;
+  }
+
+  .month div {
+    margin-bottom: 32px;
+  }
+
+  .decompte {
+    padding-top: 32px;
+    padding-bottom: 0px;
+  }
+}

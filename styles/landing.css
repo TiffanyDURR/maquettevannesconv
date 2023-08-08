@@ -1,0 +1,55 @@
+.landing {
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  width: 100%;
+  padding-top: 68px;
+  padding-bottom: 68px;
+  background: url(../asset/pic04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.landing h1 {
+  color: #d3d3d3;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 767px) {
+  .landing {
+    background: none;
+  }
+
+  .landing h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 44px;
+    font-weight: normal;
+  }
+}
+
+.landing h1 span {
+  color: #bb9a72;
+}
+
+.landing .container {
+  max-width: 1296px;
+  min-width: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.landing .container p {
+  max-width: 768px;
+  min-width: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8;
+}

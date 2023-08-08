@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@import url("styles/header.css");
+@import url("styles/cols.css");
+@import url("styles/landing.css");
+@import url("styles/decompte.css");
+@import url("styles/boutons.css");
+@import url("styles/footer.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+  font-style: normal;
+  font-weight: normal;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background-color: black;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 767px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 68px;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 52px;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 44px;
+  font-weight: normal;
+}
+
+h5 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+h6 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+a.button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: #d3d3d3;
+  border: 1px solid #bb9a72;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  margin-top: 32px;
+  border-radius: 2px;
+}
+
+a.button1:hover {
+  background-color: #bb9a72;
+}
+
+a.button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 256px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: #d3d3d3;
+  background-color: #bb9a72;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  margin-top: 32px;
+  border-radius: 2px;
+}
+
+a.button2:hover {
+  color: #bb9a72;
+  background-color: #000000;
+}
